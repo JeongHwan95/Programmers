@@ -4,11 +4,11 @@ public class Main {
 
 	public static void main(String[] args) {
 		
+		String s = "10000";
+		StringBuffer sb = new StringBuffer();
+		sb.append(s);
 		
-		String x = "234352";
 		
-		for(String k : x.split("")) {
-			System.out.println(k);
-		}
+		System.out.println(sb.reverse().toString());
 	}
 }
