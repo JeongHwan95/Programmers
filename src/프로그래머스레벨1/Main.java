@@ -5,8 +5,10 @@ public class Main {
 	public static void main(String[] args) {
 		
 		
-		String value = "010".substring(0,3);
+		String x = "234352";
 		
-		System.out.println(Integer.parseInt(value));
+		for(String k : x.split("")) {
+			System.out.println(k);
+		}
 	}
 }
